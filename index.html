@@ -4,35 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Food Landing Page</title>
-        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         
         <link rel="stylesheet" href="index.css">
-        <script>
-            tailwind.config = {
-                theme: {
-                    extend: {
-                        colors: {
-                            foodyellowbg: '#0C24BA',
-                            foodyellowtxt: '#FFB30E',
-                            warningbg: '#F17228',
-                            linearred: '#F65900'
-                        },
-                        fontFamily: {
-                            qwigley: ['Qwigley', 'cursive'],    
-                        },
-                        fontSize: {
-                            '7xl': '5rem',
-                        }
-                    }
-                }
-            }
-        </script>
-    </head>
+         </head>
 
 <body>
    
 <div class="relative grid grid-cols-4 gap-4" >
-    <div className=" m-1 py-0 top 5 top-0 left-0  ..."><img src="src/Public/ask-me-sign-on-white-260nw-2487126051.png"  /></div>
+    <div className=" m-1 py-0 top 5   ..."><img src="src/Public/ask-me-sign-on-white-260nw-2487126051.png"  /></div>
     <div class="hidden md:block">
         <ul class="flex md:gap-6 sm:text-left " >
             <li className="w-64 flex-1" >Home</li>
@@ -61,41 +41,41 @@
 </div>
    <div>
     <div class=" relative bg-gradient-to-r from-violet-500  to-indigo-500    ... min-h-screen flex justify-items-end justify-end ">
-        <div class="absolute m-10 flex justify-items-end content-start inset-y-0 left-0 w-30 text-white ">
-            <h2 class="text-white mt-10 md:mt-25 font-bold mt-4 font-sans" >SUCCESSFUL COACHES ARE VISIONARIES</h2>
+        <div class="absolute m-10 flex justify-items-end content-start inset-y-0 left-0  text-white  ">
+            <h2 class="text-white text-sm mt-10 md:mt-25 font-bold mt-4 font-sans  sm:text-xs" >SUCCESSFUL COACHES ARE VISIONARIES</h2>
            
    </div>
-   <div class="absolute mt-20 md:mt-35 m-1 flex justify-items-end content-start inset-y-0 left-0 w-30 text-white grid grid-cols-4 gap-2">
-    <h3 class="m-7 text-white mt-10 md:mt-25 font-bold mt-8 text-4xl italic ">Good 
-        <span class="font-medium text-blue-600 "> Coaching </span>is good teaching & nothing else.</h3>
-        <h1 > <p class="mt-1 mt-10 md:mt-25 -indent-20 text-paragraph text-white font-regular max-w-64 text-left hidden md:block" >Shyam<br/></p>
+   <div class="absolute sm: mt-10 mt-20 md:mt-35 m-1 flex justify-items-end content-start inset-y-0 left-0  text-white grid grid-cols-4 gap-2 ">
+    <h3 class=" text-white mt-10 md:mt-25  font-bold mt-8 text-4xl italic sm:mt-10 ">Good 
+        <span class="font-medium text-blue-600 sm:text-sm"> Coaching </span>is good teaching & nothing else.</h3>
+        <h1 > <p class="  md:mt-25 -indent-20 text-paragraph text-white font-regular  text-left " >Shyam<br/></p>
            <p class="-indent-20 hidden md:block"> In a coaching role,you ask the</p>
             <p class="-indent-20 hidden md:block"> questions and rely more on your</p>
             <p class="-indent-20 hidden md:block">staff,who become the experts,to</p>
             <p class="-indent-20 hidden md:block">provide the information.<br/></p>
             <p class="-indent-20 text-xs hidden md:block">4.9</p>
 </h1>
-<div class="absolute  top-[30%] left-[2%] m-15 flex justify-items-end content-start inset-y-30 left-5 w-30 text-white"><br/>
-    <button  class="  m-15 md:mt-10  text-white h-10 w-36   border-2 m-4 ">view Course
+<div class="absolute sm: mt-10 top-[30%] left-[2%] m-15  inset-y-30  text-white p-5 ml-2"><br/>
+    <button  class="  ml-0 m-15 md:mt-10  text-white    border-2 m-4 ">view Course
     </button>
-    <p class="m-7  h-50 w-56 text-white inline-block pt-3 m-2 font-bold"><span class="italic font-bold">Get Free</span> Consulatation</p>
+    <p class="m-7  h-50 w-56 text-white inline-block pt-3 m-2 font-bold hidden:sm"><span class="italic font-bold">Get Free</span> Consulatation</p>
 </div>
 <div class="flex font-sans items-center col-span-12 md:col-span-6  pt-3 m-2 ">
                    
                     
-    <div class="absolute top-[50%] left-[2%] flex justify-start items-center h-50 bg-white">
-     <button class="w-full text-blue-800 text-xs font-sans md:font-serif  px-5 py-3 "
-     >What do you want to learn today?</button>
-     <button
+    <div class="absolute top-[55%] left-[2%] flex justify-start items-center  bg-white mt-8 mb-8 sm:50">
+     <p class="w-full text-blue-800 text-xs font-sans md:font-serif  px-5 py-3 justify-center mb-8 sm:50"
+     >What do you want to learn today?</p>
+     <div  
      
-     class=" bg-blue-800 text-white m-3 px-5 py-1  font-semibold rounded"
+     class=" bg-blue-800 text-white m-3 px-5 py-1 w-35 grid grid-cols-2 sm: w-15 font-semibold rounded"
         
-     ><img clas=" left-[2%]  bg-blue-800bg-blue-800 text-white m-3 px-5 py-1  " src= "./src/Public/search-icon-png-1.png"/>Search</button>
+     ><img clas="  object-left p-4 " src= "./src/Public/search-icon-png-1.png" /><p>Search</p></div>
  </div>
  </div>
- <div class="hidden md:blockabsolute top-[50%] left-[30%] flex justify-start ">
+ <div class="absolute top-[40%] left-[30%] flex justify-start mr-50 hidden sm:block">
     <!-- Image block -->
-    <img src="src/Public/cave-tunnel.png" class="h-64  px-10 py-5" />
+    <img src="src/Public/cave-tunnel.png" class="h-64  px-10 py-5 ml-10" />
     
 </div>
    </div>
@@ -148,32 +128,30 @@
    
     </div>
 
-    <div class=" absolute flex justify-items-end justify-end">
-        <img  class="  size-500 object-bottom object-cover md:h-full md:size-500" src="src/img/pngtree-modern-professional-holding-laptop-in-a-corporate-settings-png-image_15872785.png" width="600" height="1000" />
+    <div class=" absolute flex  ml-50">
+        <img  class="  size-140 object-top " src="src/img/pngtree-modern-professional-holding-laptop-in-a-corporate-settings-png-image_15872785.png"  />
         
     </div> 
    </div>
-   <div class="relative grid  bg-blue-100 w-full ">
-    <div class="grid grid-cols-2 m-20">
-       <img class=object-center md:object-right ... src="./src/Public/circle.png"/>
-       <p class= " text-2xl font-bold">Featured <span  class="text-sky-600" >Course</span></p>
-     <div>
+   <div class="relative grid  bg-blue-100  ">
+    <!-- <div class="flex justify-center item-center ">
+       <img class=object-center  src="./src/Public/circle.png"/>
+      
+     <div> -->
        
    </div>
-   <div class="flex justify-left">
-    <p class= "  ">THE FEATURE COURSES ARE WE INVENTED OUR TEACHING PART </p>
-</div>
-<div class=" max-sm:hidden relative justify-center-safe">
-<div class="   max-sm:hidden grid grid-cols-3 justify-center  ">
-    <div class=" "><img src="./src/Public/dd1.png" ></div>
-    <div class=""><img src="./src/Public/dd2.png" ></div>
-    <div class=""><img src="./src/Public/dd3.png" ></div>
-    <div class=""><img src="./src/Public/dd4.png" ></div>
-    <div class=""> <img src="./src/Public/dd5.png" ></div>
-    <div class=""><img src="./src/Public/d7.png" ></div>
- 
+   <div class="flex  justify-center justify-item-center">
+     <p class= " text-2xl font-bold  p-4">Featured <span  class="text-sky-600" >Course</span><br/>
+        
+    </p>
    
+    
 </div>
+<div class= "  ">
+         <p class="text-center">THE FEATURE COURSES ARE WE INVENTED OUR TEACHING PART </p>
+    </div>
+<div>
+   
 <div>
         
     
@@ -181,26 +159,126 @@
 </div>
 
 
-<div class="max-sm:hidden relative">
-    <div class="absolute bottom-0 left-0  -p-8">
-        <button type="button" class=" py-4 bottom-0 left-0  text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">signup</button>
+
+  
+
+</div>
+
+<section class="flex justify-center justify-items-center border-2 border-blue-200 bg-blue-100 ">
+<main class="   grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-5  ">
+    <div class="bg-white shadow max-w-sm-p4 rounded-lg">
+        <img class="size=150" src="./src/Public/dd2.png">
+        <div class="grid grid-cols-3">
+        <h1>1.957 students</h1>
+        <h1></h1>
+        <h1>01h 59m</h1>
+        </div>
+<p>Motion Graphics:Create a Nice Typography Animation</p>
+<div>
+<p>Rs.499</p>
+
+    </div>
+
+        </div>
+    <div class="bg-white shadow max-w-sm-p4 rounded-lg">
+        <img class="size=150" src="./src/Public/dd1.png">
+        <div class="grid grid-cols-3">
+        <h1>957 students</h1>
+        <h1></h1>
+        <h1>01h 59m</h1>
+        </div>
+<p>Advanced PHP Knowledge with JS to make smart web</p>
+<div>
+<p>Rs.499</p>
+
+    </div>
+
+        </div>
+    <div class="bg-white shadow max-w-sm-p4 rounded-lg">
+        <img class="size=150" src="./src/Public/dd3.png">
+        <div class="grid grid-cols-3">
+        <h1>2.957 students</h1>
+        <h1></h1>
+        <h1>02h 49m</h1>
+        </div>
+<p>Education Software and PHP and JS System Script</p>
+<div>
+<p>Rs.499</p>
+
+    </div>
+
+        </div>
+    <div class="bg-white shadow max-w-sm-p4 rounded-lg">
+        <img class="size=150" src="./src/Public/dd4.png">
+        <div class="grid grid-cols-3">
+        <h1>5457 students</h1>
+        <h1></h1>
+        <h1>01h 49m</h1>
+        </div>
+<p>The Complete Financial Analyst Trainning $ Investing</p>
+<div>
+<p>Rs.499</p>
+
+    </div>
+
+        </div>
+    <div class="bg-white shadow max-w-sm-p4 rounded-lg">
+        <img class="size=150" src="./src/Public/dd5.png">
+       <div class="grid grid-cols-3">
+        <h1>597 students</h1>
+        <h1></h1>
+        <h1>01h 49m</h1>
+        </div>
+<p>Marketing 2023:Complete Guide To Instagram Growth</p>
+<div>
+<p>Rs.499</p>
+
+    </div>
+
+        </div>
+        
+    <div class="bg-white shadow max-w-sm-p4 rounded-lg">
+        <img class="size=150" src="./src/Public/d7.png">
+        <div class="grid grid-cols-3">
+        <h1>458 students</h1>
+        <h1></h1>
+        <h1>03h 00m</h1>
+        </div>
+<p>Learn 3D Modelling and Design for Beginners</p>
+<div>
+<p>Rs.499</p>
+
+    </div>
+
+        </div>
+ 
+   
+</main>
+</section>
+<div class="flex justify-center justify items-center">
+    <div class="">
+        <button type="button" class=" py-4 bottom-0 left-0  text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Exploure Courses</button>
     </div>
   </div>
-  <div class=" max-sm:hidden relative grid  bg-gradient-to-br from-sky-500 to-indigo-600 hover:bg-gradient-to-bl w-screen ">
-<div sm:text-centert>
-    <p class="text-center text-white">why <span clss="text-sky-100">learn</span> with our courses</p>
-    <p class="text-xs text-center text-white">We are providing the courses and top classes And <br/>extradinery placement training..</p>
+  <div>
+    <section class="flex justify-center justify-items-center border-2  p-2 pr-2 mr-10 py-4 inset-x-0 top-0 bg-gradient-to-t from-blue-800 to-indigo-500 focus:from-pink-500 focus:to-yellow-500 " >
+    <di class="relative inset-x-0 top-0 ">
+      <div sm:text-center>
+    <p class="text-center text-white text-lg	">why <span class=" text-lg	text-blue-400	" >learn</span> with our courses</p>
+    <div class="text-center text-white text-lg">We are Providing the best courses and top classes And<br>
+    <p>extradinery placement Trainning</p></div>
 </div>
-<div relative grid grid-cols-3>
-    <di class="relative grid grid-cols-3 p-10">
-      
-      
-        <div class="grid justify-items-center">
+      <div class="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 gap-4">
+        <div class="grid grid-cols-3 justify-items-center">
+            <div>
             <img class="size-10" src="./src/Public/working.png">
+            
+            <div>
         <p class="text-white">01.Learn </p>
+        </div>
         <p class="text-xs text-white">continually.There is always <br> "one more thing" to learn
         </p>
-        
+        </div>
     </div>
     
     <div class="grid justify-items-center p-10">
@@ -213,24 +291,52 @@
         <div class="grid justify-items-center">
        
         <img class="size-10" src="./src/Public/working.png">
-        <p class="text-white">Work</p>
+        <p class="text-white">03.Work</p>
         <p class="text-white text-xs">Great companies are built in <br/> the office.with hard work your in by team</p>
         </div>
     </div>
-
 </div>
-  </div>
-  <div class="relative grid  bg-gradient-to-br from-white-500 to-white-600 hover:bg-gradient-to-bl w-screen">
+</div>
+</section>
+  <sction >
+    
 <p class="text-center text-xl font-bold">Top <span class="font-italic text-blue-700">Categories</p>
-    <div class="relative flex p-10  gap-5 items-center justify-center" >
-      <div>  <img  src="./src/Public/d1.png"> </div>
-      <div> <img  src="./src/Public/d2.png"> </div>
-      <div> <img  src="./src/Public/d3.png"> </div>
-      <div> <img  src="./src/Public/d4.png"></div>
-      <div><img  src="./src/Public/d5.png"></div>
-      <div> <img  src="./src/Public/d6.png"></div>
+    <p class="text-center text-xl font-italic
+    "> 100+ unique online courses list designs</p>
+    <section class="flex justify-center items-center">
+    <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4 p-5">
+    
+      <div class="bg-white shadow max-w-sm p-4 rounded-lg">  <img  class="p-4" src="./src/Public/d1.png">
+        <h1 class="p-4 font-sans text-center	">Digital <br/>Marketing</h1>
+        <h1>25 Courses  </h1>
+     </div>
+      <div class="bg-white shadow max-w-sm p-4 rounded-lg"> <img  class="p-4" src="./src/Public/d2.png"> 
+    <h1 class="p-4 font-sans text-center	">web <br/>Devlopment
+        <h1>16 Courses</h1>
+
+    </h1></div>
+      <div class="bg-white shadow max-w-sm p-4 rounded-lg"> <img class="p-4"  src="./src/Public/d3.png">
+        <h1 class="p-4 font-sans text-center	">Arts $ <br/> Devlopment<humunity></h1>
+            <h1>76 Courses</h1>
+     </div>
+      <div class="bg-white shadow max-w-sm p-4 rounded-lg">
+         <img  class="p-4"  src="./src/Public/d4.png">
+         <h1  class="p-4 font-sans text-center	">Personal <br/>Devopment</h1>
+         <h1>22 courses</h1>
+        </div>
+      <div class="bg-white shadow max-w-sm p-4 rounded-lg">
+        <img  class="p-4"  src="./src/Public/d5.png">
+        <h1 class="p-4 font-sans text-center	">IT and <br/>Software</h1>
+        <h1>110 Courses</h1>
     </div>
-  </div>
+      <div class="bg-white shadow max-w-sm p-4 rounded-lg"> 
+        <img  class="p-4" src="./src/Public/d6.png">
+        <h1 class="p-4 font-sans text-center"> Graphic $ <br/> Design</h1>
+        <h1>85 Courses</h1>
+    </div>
+    
+    </main>
+</section>
 
 <div class=" relative  bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500  justify-center-safe  p-8 pr-4 m-10 ms-35 py-8">
    <div class="   flex py-8  p-10 margin-auto gap-5 items-center justify-center" 
@@ -273,5 +379,6 @@
         <img src="./src/Public/footer3.png " class="w-full ">
     </div>
    </div>
+   
 </body>
 </html>
